@@ -1,0 +1,15 @@
+.characters {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 30px auto;
+
+  .character {
+    color:rgb(255, 255, 255);
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(254, 254, 254);
+    min-width: 20px;
+    min-height: 20px;
+    text-align: center;
+  }
+}

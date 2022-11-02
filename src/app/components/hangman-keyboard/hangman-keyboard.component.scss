@@ -1,0 +1,12 @@
+.keyboard {
+  max-width: 780px;
+  margin: 30px auto;
+  border-radius: 50px;
+  .keys {
+    display: flex;
+    gap: 15px;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,149 @@
+
+<style>
+  :host {
+    font-size: 24px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+  }
+
+  .toolbar #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .toolbar #twitter-logo:hover,
+  .toolbar #youtube-logo:hover {
+    opacity: 0.8;
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+</style>
+
+<!-- Toolbar -->
+<div class="flex justify-center  ">
+  <nav class="self-center w-full max-w-7xl  ">
+      <div class="flex flex-col lg:flex-row justify-around items-center ">
+          <h1 class="uppercase pl-5 py-4 text-lg font-sans font-bold" style="font-size:30px;color:rgb(205, 205, 205)"><i>GAME OVER</i></h1>
+          <ul class="hidden lg:flex items-center text-[18px] font-semibold pl-32">
+              <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5" style="font-size:30px;text-decoration: underline;"><a
+                      href="https://github.com/annemshivaji" style="color:rgb(205, 205, 205)">Github</a></li>
+              <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5" style="font-size:30px;text-decoration: underline;"><a
+                      href="#" style="color:rgb(205, 205, 205)">Link for presentation video</a></li>
+          </ul>
+          
+      </div>
+  </nav>
+</div>
+<br>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+<div class="flex justify-center  ">
+  <div class="flex flex-col items-center justify-center">
+
+      <div class="flex flex-col  max-w-7xl justify-center items-center space-y-3 w-full ">
+          <div class="flex flex-col   md:items-start items-center justify-center  space-y-3 px-8 text-center ">
+          </div>
+          <div
+              class="flex flex-col lg:flex-row space-x-2 space-y-3 md:space-x-6   w-full items-center justify-center ">
+
+              <div class="lg:w-40 w-64 h-40  overflow-hidden rounded-xl ">
+                  <img src="https://source.unsplash.com/random/300x500/?cat
+
+                  " alt="" class="" />
+              </div>
+              <div class="flex flex-row lg:flex-col space-x-3 space-y-6 items-center justify-center">
+                  <div class="w-32 lg:w-40 h-32  overflow-hidden rounded-xl ">
+                      <img src="https://source.unsplash.com/random/300x500/?dog
+
+                      " alt="" class="" />
+                  </div>
+                  <div class="w-32 lg:w-40 h-48  overflow-hidden rounded-xl ">
+                      <img src="https://source.unsplash.com/random/300x500/?horse
+
+                      " alt="" class="" />
+                  </div>
+              </div>
+              <div class="lg:w-60 w-64 h-96  overflow-hidden rounded-xl ">
+                  <img src="https://source.unsplash.com/random/300x500/?game
+
+                  " alt="" class="" />
+              </div>
+              <div class="flex flex-row lg:flex-col space-x-3 space-y-6 items-center justify-center ">
+                  <div class="w-32 lg:w-40 h-48  overflow-hidden rounded-xl ">
+                      <img src="https://source.unsplash.com/random/300x500/?tiger
+
+                      " alt="" class="" />
+                  </div>
+                  <div class="w-32 lg:w-40 h-32  overflow-hidden rounded-xl ">
+                      <img src="https://source.unsplash.com/random/300x500/?lion
+
+                      " alt="" class="" />
+                  </div>
+              </div>
+              <div class="lg:w-40 w-64 h-40  overflow-hidden rounded-xl ">
+                  <img src="https://source.unsplash.com/random/300x500/?cheetah
+
+                  " alt="" class="" />
+              </div>
+
+
+          </div>
+
+      </div>
+  </div>
+</div> 
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+<div class="content" role="main">
+  <app-hangman></app-hangman>
+
+</div>
