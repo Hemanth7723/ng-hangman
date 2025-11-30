@@ -33,7 +33,7 @@ A lightweight, responsive Hangman game built with Angular, TypeScript, and SCSS 
 
 ## **Demo**
 - Live demo: (Not hosted by default) — run locally following Quick start to try it immediately.
-- Preview: (image above) — replace the placeholder with your own screenshots in `assets/` for a nicer README.
+- Preview: (image above) 
 
 ---
 
@@ -207,7 +207,7 @@ FAQ — quick tips
 ---
 
 ## **Security & privacy**
-- This is a client-side game storing no user data by default. If you later add analytics or remote services, display a privacy notice and follow best practices.
+- This is a client-side game storing no user data by default. If added analytics or remote services, display a privacy notice and follow best practices.
 
 ---
 
